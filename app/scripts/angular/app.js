@@ -5,9 +5,10 @@
  */
 define([
     'jquery',
+    'fabricjs',
     'angularjs',
     'angular/extensions'
-], function( $, angularjs ) {
+], function( $, fabric, angularjs ) {
 
     var app = angularjs.module('app', [
       'ngResource', 'ngRoute'

@@ -6,7 +6,8 @@ require.config({
 		angularjs: '../thirdparty/angular/angular',
 		app: 'angular/app',
 		modules: 'angular/modules',
-		'angular-extensions': '../thirdparty/angular/'
+		'angular-extensions': '../thirdparty/angular/',
+    fabricjs: '../thirdparty/fabricjs/all'
 	},
 	shim: {
 		'bootstrap': {
